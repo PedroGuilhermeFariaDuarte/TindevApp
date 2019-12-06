@@ -7,7 +7,8 @@ const cors = require("cors");
 
 //DEFININDO A CONEXAO COM O BANCO DE DADOS
 mongoose.connect(process.env.MONGO_DB_URL, {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 //UTILIZANDO O EXPRESS PARA MANIPULAR TODAS AS REQUISICOES ENVIADAS AO SERVIDOR
@@ -36,4 +37,8 @@ app.use(cors());
 app.use(router);
 
 //DEFININDO A PORTA DE COMUNICA��O/REQUISI��O COM O SERVIDOR @3333
-server.listen(3333);
+server.listen(3333, () => {
+  console.log(
+    "Server online in 3333 port, open new terminal and start frontend app with yarn start command"
+  );
+});

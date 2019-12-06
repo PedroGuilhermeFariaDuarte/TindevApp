@@ -3,7 +3,7 @@ Aplicativo web, que simula alguns dos recursos do app Tinder, como os match em r
 
 # Modo de Uso
 Após baixar o app, abra o seu terminal, acesse a pasta backend de TindevApp, e execute os seguintes comandos 'yarn install' aguarde a instalação de todas as depedências, após a instalação execute 'yarn dev'
-Feito isso, acesse a pasta frontend, e execute os seguintes comandos  'yarn install' aguarde a instalação de todas as depedências, após a instalação execute 'yarn dev' aguarde um pouco, uma nova janela do seu navegador padrão irar abrir com a interface do App.
+Feito isso, acesse a pasta frontend, e execute os seguintes comandos  'yarn install' aguarde a instalação de todas as depedências, após a instalação execute 'yarn start' aguarde um pouco, caso apareça a seguinte mensagem no terminal "Would you like to run the app on another port instead? [Y/n]", pressione a tecla 'Y', aguarde mais um pouco, uma nova janela do seu navegador padrão irar abrir com a interface do App.
 
 # Utilizando o melhor recurso do App
 No seu navegador ou em outro (recomendo), abra um nova guia, e cole a URL da primeira guia que foi aberta com a interface do App. Feito isso, nas guias do navegador, informe os nomes diferentes de um usuario do GitHub, clique em login, e pronto. Agora você tem acesso a todos os usuarios cadastrados na base de dados do App.
